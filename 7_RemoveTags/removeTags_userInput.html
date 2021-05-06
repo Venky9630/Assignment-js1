@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove Html/Xml Tags</title>
+    <script src="./removeTags_userInput.js"></script>
+</head>
+<body>
+    <h2>Remove HTML/Xml tags from given input</h2>
+    <form id="myForm">
+    <label for="userInput">please type something in  HTML format</label><br>
+    <textarea id="userInput" value="" type="text" name="userInput"style="height: 50px;width: 25%;"></textarea>
+    </form>
+        <button type="submit" onclick="init()">SUBMIT</button>
+        <button type="submit" onclick="reSet()">RESET</button>
+    <p id="output"></p>
+</body>
+</html>
